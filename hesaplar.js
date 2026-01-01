@@ -11,7 +11,7 @@ function calc() {
     console.log(`Perimeter of the rectangle: ${perimeter}`);
     console.log(`Inertia Y of the rectangle: ${inertia}`);
     console.log(`Inertia X of the rectangle: ${inertia2}`); 
-    document.getElementById("area").innerText = area.toFixed(1);
+    document.getElementById("area").innerText = area.toFixed(2);
     document.getElementById("perimeter").innerText = perimeter.toFixed(2);
     document.getElementById("inertiaY").innerText = inertia.toFixed(2);
     document.getElementById("inertiaX").innerText = inertia2.toFixed(2);
