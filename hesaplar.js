@@ -16,3 +16,19 @@ function calc() {
     document.getElementById("inertiaY").innerText = inertia.toFixed(2);
     document.getElementById("inertiaX").innerText = inertia2.toFixed(2);
 }
+    const baslik = document.getElementById("r1");
+    baslik.addEventListener("mouseover", () => {
+        console.log("You clicked the title!");
+        });
+    function bildir() {
+        console.log("You left the title!");
+    }
+    function myFunction() {
+    document.body.classList.toggle("dark-mode"); 
+    let p = document.getElementById("demo");
+    if (document.body.classList.contains("dark-mode")) {
+        p.textContent = "Dark mode toggled.";
+    } else {
+     p.textContent = "Light mode toggled.";
+    }
+}
